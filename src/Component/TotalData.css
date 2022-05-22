@@ -1,0 +1,23 @@
+.container{
+    /* margin-top: 50px; */
+    width: 70vw;
+    height: 40vh;
+    background-color: rgba(59, 44, 44, 0.959);
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: auto auto auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.box{
+    /* border: 1px solid black  */
+    padding: 5px; 
+    color: antiquewhite                                                                                                                                                            ;
+}           
+
+.box:hover{
+    -moz-outline-radius: 1px solid yellowgreen;
+    background-color: rgb(75, 45, 38);
+    
+}
